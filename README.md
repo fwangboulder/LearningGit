@@ -45,9 +45,13 @@ block
 
 ## Work with Github account
 >Step 1 : Create SSH keys for all accounts
+
 >Step 2 : Add SSH keys to SSH Agent
+
 >Step 3 : Add SSH public key to the Github
+
 >Step 4 : Create a Config File and Make Host Entries
+
 >Step 5 : Cloning GitHub repositories using different accounts
 ```
 cd ~/.ssh
@@ -57,6 +61,8 @@ pbcopy < ~/.ssh/github-username.pub
 Githubaccount:Goto Settings > SSH and GPG keys > New SSH Key
 touch config
 open config
+
+Here is content type in config:
 
 #Your account
 Host github.com-username
@@ -73,7 +79,7 @@ git push
 git pull
 
 ```
-##Reset git add
+## Reset git add
 
 git reset
 
